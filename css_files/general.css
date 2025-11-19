@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: unset;
+}
+
+header{
+    background: rgba(40, 167, 185,0.9);
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 0%;
+}
+
+
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_searchbar, 
+.cart_user_account{
+    margin-left: 10%;
+}
+
+.title_searchbar ul{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+.title_searchbar form{
+    margin-left: 40%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.title_searchbar input[type="text"]{
+    border-radius: 5px;
+    width: 18em; 
+}
+
+.title_searchbar input::placeholder{
+    color: #000000;
+}
+
+.title_searchbar input[placeholder="Search"]{
+    font-weight: 1000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 2%;
+    border: unset;
+}
+
+.title_searchbar button{
+    position: absolute;
+    right: 0%;
+    font-size: 2rem;
+    color: #818181;
+    border: unset;
+    background-color: unset;
+}
+
+.fa-user-plus{
+    padding: 2%;
+    font-size: 3rem;
+    margin-left: 10%;
+}
+.fa-solid {
+    font-weight: 900;
+}
+.remove-text-decoration{
+    text-decoration: none;
+}
+
+.main_menu{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+.main_menu ul{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center; /*justing to align center along the main axis*/
+}
+
+.color-white1{
+    color: white;
+}
+
+.bgcolor-black{
+ background-color: black;
+}
+
+.main_menu a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    margin-right: 1.5em;
+}

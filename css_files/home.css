@@ -1,0 +1,251 @@
+.homeimage-top-container{
+    padding: 0%;
+    margin: 0%;
+}
+
+.homeimage-top-container img{
+    object-fit: cover;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.Home_article_container{
+    background-color: unset;
+    padding: 20px;
+    width: 49%;
+    margin: auto;
+
+}
+.article_style1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+@media screen and (max-width:1020px){
+    .article_style1{
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width:1000px){
+    .Home_article_container ul {
+        padding-left: 0%;
+    }
+}
+.Home_article_container ul {
+    list-style-type: none;
+}
+.middle_home_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 5%;
+}
+.home_article2_c0ntainer p {
+    top: 198%;
+    list-style-type: none;
+}
+.middle_home_image img {
+    object-fit: cover;
+    width: 50%;
+}
+.home_article2_c0ntainer{
+    width: 50%;
+}
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_menu_grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+    padding: 0%;
+}
+.gid_menu{
+    border: unset;
+    padding: 9%;
+    text-align: center; 
+}
+.color-white1{
+    color: #ffffff;
+}
+ .gid_menu .home_button {
+    border-radius: 73%;
+    padding: 3%;
+    width: 20vw;
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+
+}
+ .gid_menu .home_button{
+    background: #28b92eed;
+
+}
+.gid_menu .Events_button{
+    background: #28A7B9E5;;
+}
+.gid_menu .Programs_button{
+    background: #AD28B9E5;
+    
+}
+.gid_menu .Exhibitions_button{
+  background: #3428B9E5;}
+
+.gid_menu .Explore_button{
+  background: #28b92eed;
+}
+.gid_menu .Explore_button{
+  background: #28b92eed;
+}
+
+.gid_menu .Visit_Us_button{
+  background: #28b92eed;
+}
+
+.gid_menu .Events_button {
+    border-radius: 73%;
+    padding: 3%;
+    width: 20vw;
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.gid_menu .Programs_button {
+    border-radius: 73%;
+    padding: 3%;
+    width: 20vw;
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.gid_menu .Exhibitions_button{
+    border-radius: 73%;
+    padding: 3%;
+    width: 20vw;
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.gid_menu .Explore_button{
+  background: #28b92eed;
+  border-radius: 73%;
+  padding: 3%;
+  width: 20vw;
+  border: unset;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.gid_menu .Visit_Us_button{
+  background: #28A7B9E5;
+  border-radius: 73%;
+  padding: 3%;
+  width: 20vw;
+  border: unset;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.footer_area{
+    background-color: rgb(40,167,187,0.9);
+    line-height:1.5;
+    position: relative;
+    margin-top: 0%;
+}
+.follo_paywith_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.social_handles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+.social_handles p{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    list-style-type: none;
+    white-space: nowrap;
+
+}
+.social_icons ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    font-size: 2rem;
+    margin: unset;
+}
+.payment_modes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.payment_modes{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700%;
+    font-size: 2rem;
+    color: #000000;
+    list-style-type: none;
+    white-space: nowrap;
+}
+.payment_modes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.payment_modes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+    .payment_modes img{
+        margin-left: 47%;
+        
+
+    }
+    .black_separetor2{
+        width: 100%;
+        background-color: #000000;
+        padding-top: 0.5%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+    }
+.site_title_footer ul {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0%;
+}
+.copyrigt_information {
+    display: flex;
+    justify-content: space-between;
+}
+
+
