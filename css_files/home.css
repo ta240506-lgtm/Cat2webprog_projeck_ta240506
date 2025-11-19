@@ -197,7 +197,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 47%;
 }
 .payment_modes{
     font-family: 'inter';
@@ -220,10 +220,10 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-left: 10%;
+    margin-right: 10%;
 }
     .payment_modes img{
-        margin-left: 47%;
+        margin-right: 47%;
         
 
     }
@@ -246,6 +246,8 @@
 .copyrigt_information {
     display: flex;
     justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
 
