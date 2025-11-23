@@ -121,3 +121,209 @@ a{
     font-size: 1.5em;
     margin-right: 1.5em;
 }
+.heading1_center{
+    font-size: 2.5rem;
+}
+.free-admin-heading{
+    text-align: center;
+    margin-top: 4%;
+}
+.open_hours_container{
+    background: rgb(46,178, 51,0.6);
+    border-radius: 3rem;
+    margin: 3% 15%;
+    padding: 2%;
+    gap: 25%;
+    position: relative;
+}
+.blackseparator3 {
+    padding-top: 0.5%;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 0%;
+
+}
+.bgcolor-black{
+    background-color: #000000;
+
+}
+.museum_program_images_p1{
+    margin: 2% 15% 3%;
+
+}
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading_three_v1{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+.testimonials_container{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 5%;
+
+}
+.second_heading1_programs{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.left-div, .right-div{
+    margin-top: 0%;
+}
+.working_hours, .guided_tour_container, .article_style_a p, .meetups_article{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.meetups_article, .guided_tour_container{
+    padding: 12%;
+}
+.museum_program_images_p1{
+    margin: 2% 15% 3%;
+}
+.article_style_a{
+    margin-top: 1.6%;
+    padding-right: 2%;
+
+}
+.museum_program_images_p1 img{
+    object-fit: cover;
+    max-height: 443px;
+
+}
+.heading_three_v1{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+
+}
+.testimony1, .testimony2, .testimony3{
+    max-width: 20%;
+}
+.left-div ul{
+    list-style: none;
+    white-space: nowrap;
+    
+}
+.testimony-text{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.bottom_images_explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2%;
+
+}
+.bottom_images_explore img{
+    object-fit: cover;
+    max-height: 350px;
+    border: 2px solid #2f2b2b;
+}
+.heading1_center{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 2.5rem;
+}
+.first_paragraph_explore_page{
+    padding: 0% 17%;
+
+}
+ .article_style1{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+
+}
+.heart_and_teeth_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 17%;
+
+}
+.separator_explore{
+    padding-top: 0.5%;
+    margin: 3%;
+}
+.secondheading_1_explore_page{
+    text-align: center;
+    margin-top: 3.2%;
+}
+.first_paragraph_explore_page{
+    padding: 0% 7%;
+}
+.thirdheading_1_explore_page{
+    text-align: center;
+    margin-top: 3.2%;
+    font-size: 1.5rem;
+}
+.last_paragraph_explore_page{
+    padding: 0% 30%;
+}
+
+
+.article1-exhibition-container article p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+@media screen and (max-width: 1000px) {
+    .article1-exhibition-container article>p, .paragraph-style-1 {
+        font-size: 2rem;
+    }
+}
+.heading2_exhibition_page {
+    padding-left: 13%;
+    font-size: 2em;
+}
+.separator_exhibition_page {
+    padding-top: 0.5%;
+    margin: 3.2% 13% 3.2% 13%;
+}
+.my-shop {
+    margin: 2% 12% 2%;
+}
+.paragraph-style-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.shop_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 0.5%;
+    margin: 3.2% 9.6% 3.2% 9.6%;
+    gap: 10%;
+}
+.my-shop img {
+    object-fit: cover;
+    max-height: 192px;
+}
+.item_container {
+    position: relative;
+}
+.flex_box_column2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
